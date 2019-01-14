@@ -3,8 +3,8 @@ FROM centos:7
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
 ENV JAVA_VERSION_MAJOR=8 \
-    JAVA_VERSION_MINOR=144 \
-    JAVA_VERSION_BUILD=01 \
+    JAVA_VERSION_MINOR=191 \
+    JAVA_VERSION_BUILD=12 \
     JAVA_URL_HASH=090f390dda5b47b9b721c7dfaa008135 
 
 RUN yum update -y && \
